@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ফটো ভিডিও রিকভারি</string>
+    <string name="tab_photos">ছবি</string>
+    <string name="tab_videos">ভিডিও</string>
+    <string name="tab_files">ফাইল</string>
+
+    <!-- Permission card -->
+    <string name="perm_title">অনুমতি প্রয়োজন</string>
+    <string name="perm_body">ডিলিট করা ছবি/ভিডিও/ফাইল খুঁজে বের করতে স্টোরেজের অনুমতি লাগবে। এই অ্যাপ কোনো ডেটা ইন্টারনেটে পাঠায় না — সব স্ক্যান ফোনের ভেতরেই হয়। রুট একদম লাগে না।</string>
+    <string name="btn_grant_media">মিডিয়া অনুমতি দিন</string>
+    <string name="btn_grant_all">সব ফাইল অ্যাক্সেস দিন</string>
+    <string name="state_ok">✓ দেওয়া আছে</string>
+    <string name="state_no">✗ এখনো দেওয়া হয়নি</string>
+    <string name="label_media_perm">মিডিয়া অনুমতি (ট্র্যাশ রিস্টোরের জন্য):</string>
+    <string name="label_deep_perm">গভীর স্ক্যান (পুরনো ফাইল খোঁজার জন্য):</string>
+
+    <!-- Scan / empty state -->
+    <string name="scan_now">এখন স্ক্যান করুন</string>
+    <string name="empty_no_files">কোনো ডিলিট করা ফাইল পাওয়া যায়নি</string>
+    <string name="empty_hint_deep">গভীর স্ক্যান চালু করতে উপরের কার্ড থেকে “সব ফাইল অ্যাক্সেস” দিন, তারপর আবার স্ক্যান করুন</string>
+    <string name="truncated_notice">অনেক বেশি ফাইল পাওয়া গেছে — প্রথম ৫০০০টি দেখানো হচ্ছে</string>
+
+    <!-- Age filter chips -->
+    <string name="chip_all">সব</string>
+    <string name="chip_1y">১ বছর+</string>
+    <string name="chip_3y">৩ বছর+</string>
+    <string name="chip_5y">৫ বছর+</string>
+
+    <!-- Preview dialog -->
+    <string name="preview_title">প্রিভিউ</string>
+    <string name="recover">রিকভার করুন</string>
+    <string name="close">বন্ধ করুন</string>
+    <string name="open_viewer">ভিউয়ার দিয়ে খুলুন</string>
+    <string name="source_trash">ট্র্যাশে আছে — সিস্টেম রিস্টোর দিয়ে গ্যালারিতে ফিরে যাবে</string>
+    <string name="source_disk">স্টোরেজে পাওয়া গেছে (গ্যালারিতে নেই) — কপি করে রিকভার হবে</string>
+    <string name="doc_preview_hint">এই ফাইলটি রিকভার করার পর বা “ভিউয়ার দিয়ে খুলুন” চেপে দেখা যাবে</string>
+    <string name="video_error">ভিডিও প্রিভিউ চালু করা যায়নি — তবেও রিকভার করা যাবে</string>
+
+    <!-- Toasts -->
+    <string name="toast_recovered_ok">রিকভার সম্পন্ন! গ্যালারি / ফাইল ম্যানেজারে দেখুন: %1$s</string>
+    <string name="toast_recovered_fail">রিকভার ব্যর্থ: %1$s</string>
+    <string name="toast_restore_ok">ট্র্যাশ থেকে রিস্টোর হয়েছে! গ্যালারি চেক করুন</string>
+    <string name="toast_restore_cancel">রিস্টোর বাতিল হয়েছে</string>
+    <string name="toast_trash_fail">ট্র্যাশ রিস্টোর শুরু করা যায়নি — মিডিয়া অনুমতি দিয়ে আবার চেষ্টা করুন</string>
+    <string name="toast_recovering">রিকভার চলছে…</string>
+    <string name="toast_no_app">এই ফাইল খোলার কোনো অ্যাপ (PDF রিডার ইত্যাদি) পাওয়া যায়নি</string>
+    <string name="toast_need_media_perm">প্রথমে মিডিয়া অনুমতি দিন</string>
+
+    <!-- Misc -->
+    <string name="ic_launcher_background">#0B8043</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    android:foreground="?attr/selectableItemBackground">
+
+    <com.recovery.pvphoto.SquareImageView
+        android:id="@+id/imgItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/thumb_bg"
+        android:contentDescription="@string/tab_photos"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/imgPlayBadge"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center"
+        android:alpha="0.9"
+        android:contentDescription="@string/tab_videos"
+        android:src="@drawable/ic_play"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txtMeta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#99000000"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingStart="5dp"
+        android:paddingTop="3dp"
+        android:paddingEnd="5dp"
+        android:paddingBottom="3dp"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp" />
+</FrameLayout>
